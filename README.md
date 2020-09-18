@@ -10,7 +10,7 @@ For Mac machines, use the mac iso.
 
 Install the base system and only the standard system utilities.
 
-## Add `contrib non-free`, add user to sudo-ers
+## Add add `user` to sudo-ers
 ```
 # nano /etc/apt/sources.list
 ```
