@@ -135,3 +135,6 @@ $ xrandr --output HDMI1 --auto --set "audio" on
 `$ lsblk` to check if unmounted successfully.
 
 `$ udisksctl power-off -b /dev/sdc` to safely remove.
+
+### Uniform theming
+Start with lxappearance and choose a theme; then choose it in gtk-chtheme. In qt4-config, there is a dropdown menu setting to make qt take the GTK+ settings. Credits: https://askubuntu.com/a/600946.
