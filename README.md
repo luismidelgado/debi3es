@@ -1,7 +1,7 @@
 # debi3n
 Debian, i3wm. From scratch. Slighlty tuned.
 
-Caveat emptor: linux manual gear driving required for the initial mise en place and for daily usage.
+Caveat emptor: driving linux on manual required for the initial mise en place and for daily usage.
 
 ## Install debian for netinst firmware
 USB tether with a smartphone that has internet access. Saves a lot of initial WiFi headaches. You can sort out the WiFi later.
@@ -27,7 +27,7 @@ Nano editing tips: `Alt + A` start marking text, `Alt + 6` copy marked text, `Ct
 Mark and copy the `root ALL...` line. Paste below and change `root` with the user name you created.
 
 
-## Install i3: a minimum of apps, utils and a few customizations
+## Install i3wm, a minimum of apps, utils and a few customizations
 ```
 # apt install unzip
 # cd /tmp
@@ -38,7 +38,9 @@ Mark and copy the `root ALL...` line. Paste below and change `root` with the use
 # ./files.sh <user>
 ```
 
-Reboot. Learn the commands, i.e. linux manual gear driving. Practice the keybindings. Enjoy.
+Reboot. Login. `startx`. Practice the keybindings. Enjoy.
+
+When ncessary, drive linux on manual: learn about new commands.
 
 ## Peculiar installs
 ### OnlyOffice
