@@ -16,7 +16,7 @@ Install the base system and only the standard system utilities.
 ```
 Add `contrib non-free` to `buster main`.
 
-Nano editing tips: `Alt + A` start marking text, `Alt + 6` copy marked text, `Ctrl + U` paste.
+Nano editing tips: `Alt+A` start marking text, `Alt+6` copy marked text, `Ctrl+U` paste.
 
 ```
 # apt update && apt upgrade - y
@@ -58,14 +58,14 @@ $ sudo apt install onlyoffice-desktopeditors
 
 ## Keybindings
 ### i3wm
-`Win + Shift + e` is now an exit menu.
+`Win+Shift+E` is now an exit menu.
 
 Other normal `i3wm` keybindings.
 
 ### rofi
-`Win + d` is now rofi.
+`Win+D` is now rofi.
 
-`Shift + →` `Shift + ←` to cycle through rofi screens.
+`Shift+ →` `Shift+ ←` to cycle through rofi screens.
 
 ### vifm
 `Space` to select files.
@@ -100,9 +100,9 @@ Other normal `vifm` keybindings.
 
 `~/bin/kbdro.sh` to change the keyboard layout to Romanian.
 
-Run SoG utils from rofi `combi` screen: `Win + d`, start typing `pm.` until file is highlighted then press `ENTER`.
+Run SoG utils from rofi `combi` screen: `Win+D`, start typing `pm.` until file is highlighted then press `ENTER`.
 
-Run SoG utils from rofi `run` screen: `Win + d`, `Shift + →`, start typing `pm.` until file is highlighted then press `ENTER`.
+Run SoG utils from rofi `run` screen: `Win+D`, `Shift+ →`, start typing `pm.` until file is highlighted then press `ENTER`.
 
 ## Tips
 
