@@ -5,17 +5,17 @@ i3wm on debian, from scratch
 usb tether with a smartphone that has internet access
 
 
-## add "contrib non-free" and add user to sudo-ers
+## add `contrib non-free` and add user to sudo-ers
 ```
 # nano /etc/apt/sources.list
 ```
-add "contrib non-free" to "buster main"
+add `contrib non-free` to `buster main` suffixes
 
-Alt + A  - start marking text
+`Alt + A` start marking text
 
-Alt + 6  - copy marked text
+`Alt + 6` copy marked text
 
-Ctrl + U - paste
+`Ctrl + U` paste
 
 ```
 # apt update && apt upgrade - y
@@ -23,9 +23,9 @@ Ctrl + U - paste
 # visudo
 ```
 
-mark and copy "root ALL..." line
+mark and copy the `root ALL...` line
 
-paste below and change "root" with the user name you created
+paste below and change `root` with the user name you created
 
 
 ## install i3 and a minimum of apps and utils
@@ -45,9 +45,18 @@ $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys CB2DE8E
 $ sudo nano /etc/apt/sources.list
 ```
 
-add "deb https://download.onlyoffice.com/repo/debian [buster|squeeze] main"
+add `deb https://download.onlyoffice.com/repo/debian squeeze main`
 
 ```
 $ sudo apt update
 $ sudo apt install onlyoffice-desktopeditors
 ```
+
+## keybindings
+
+`Win + d` rofi
+
+`Shift + →` `Shift + ←` rofi screens
+
+`Win + S + e` exit menu
+
