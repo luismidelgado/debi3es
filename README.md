@@ -54,15 +54,15 @@ $ sudo apt install onlyoffice-desktopeditors
 
 ## keybindings
 
-### rofi
-`Win + d` rofi
-
-`Shift + →` `Shift + ←` rofi screens
-
 ### i3
 `Win + Shift + e` exit menu
 
 Other normal `i3` keybindings.
+
+### rofi
+`Win + d` rofi
+
+`Shift + →` `Shift + ←` rofi screens
 
 ### vifm
 `Space` select files
@@ -82,3 +82,49 @@ Other normal `i3` keybindings.
 `Del` delete selection
 
 Other normal `vifm` keybindings.
+
+### bash commands history search - reverse
+`CTRL+R` start search
+
+`CTRL+G` cancel
+
+## utils
+`~/bin/pm.sh` park mouse
+
+`~/bin/rsr.sh` status report
+
+`~/bin/kbden.sh` change keyboard to English US layout
+
+`~/bin/kbdro.sh` change keyboard to Romanian layout
+
+Run utils from rofi `run` screen.
+
+## tips
+
+### Firewall
+`sudo gufw`
+
+### HDMI audio
+```
+$ xrandr --props
+$ ...
+$ HDMI1 connected ...
+$ ...
+$ xrandr --output HDMI1 --auto --set "audio" on
+```
+
+### Network interfaces
+`$ ip link` list interfaces
+
+`$ sudo nano /etc/network/interfaces` edit interfaces
+
+### USB memory sticks
+`$ lsblk` check devs and mount points
+
+`$ pmount /dev/sdc` mount
+
+`$ lsblk` check if `/media/sdc` mount point has been created
+
+`$ pumount /dev/sdc` unmount
+
+`$ lsblk` check if unmounted succesfully
