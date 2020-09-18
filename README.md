@@ -128,3 +128,5 @@ $ xrandr --output HDMI1 --auto --set "audio" on
 `$ pumount /dev/sdc` unmount
 
 `$ lsblk` check if unmounted succesfully
+
+`$ udisksctl power-off -b /dev/sdc` safely remove
