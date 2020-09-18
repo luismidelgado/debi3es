@@ -1,7 +1,7 @@
 # debi3n
 Debian, i3wm. From scratch. Slighlty tuned.
 
-Caveat emptor: manual gear drive required for initial mise en place and for daily usage.
+Caveat emptor: linux manual gear driving required for the initial mise en place and for daily usage.
 
 ## Install debian for netinst firmware
 USB tether with a smartphone that has internet access. Saves a lot of initial WiFi headaches. You can sort out the WiFi later.
@@ -38,7 +38,7 @@ Mark and copy the `root ALL...` line. Paste below and change `root` with the use
 # ./files.sh <user>
 ```
 
-Reboot. Enjoy.
+Reboot. Learn the commands, i.e. linux manual gear driving. Practice the keybindings. Enjoy.
 
 ## Peculiar installs
 ### OnlyOffice
@@ -55,10 +55,10 @@ $ sudo apt install onlyoffice-desktopeditors
 ```
 
 ## Keybindings
-### i3
+### i3wm
 `Win + Shift + e` is now an exit menu.
 
-Other normal `i3` keybindings.
+Other normal `i3wm` keybindings.
 
 ### rofi
 `Win + d` is now rofi.
@@ -66,21 +66,21 @@ Other normal `i3` keybindings.
 `Shift + →` `Shift + ←` to cycle through rofi screens.
 
 ### vifm
-`Space` select files
+`Space` to select files.
 
-`w` preview file
+`w` to quickly preview the selected file.
 
-`F3` view file
+`F3` to preview the selected file
 
-`F4` edit file
+`F4` to edit the selected file.
 
-`F5` copy selection to other pane
+`F5` to copy selection to the other pane.
 
-`F6` move selection to other pane
+`F6` to move selection to the other pane.
 
-`F7` make directory
+`F7` to create a new directory.
 
-`Del` delete selection
+`Del` to delete selection.
 
 Other normal `vifm` keybindings.
 
@@ -90,13 +90,15 @@ Other normal `vifm` keybindings.
 `CTRL+G` cancel
 
 ## SoG utils (stroke of genius utils)
-`~/bin/pm.sh` park mouse
+`~/bin/pm.sh` to park the mouse.
 
-`~/bin/rsr.sh` status report
+`~/bin/rsr.sh` for a quick status report.
 
-`~/bin/kbden.sh` change keyboard to English US layout
+`~/bin/kbden.sh` to change the keyboard layout to English US.
 
-`~/bin/kbdro.sh` change keyboard to Romanian layout
+`~/bin/kbdro.sh` to change the keyboard layout to Romanian.
+
+Run SoG utils from rofi `combi` screen: `Win + d`, start typing `pm.` until file is highlighted then press `ENTER`.
 
 Run SoG utils from rofi `run` screen: `Win + d`, `Shift + →`, start typing `pm.` until file is highlighted then press `ENTER`.
 
