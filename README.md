@@ -4,13 +4,13 @@ Debian, i3wm. From scratch. Slighlty tuned.
 Caveat emptor: driving linux on manual required for the initial mise en place and for daily usage.
 
 ## Install debian for netinst firmware
-USB tether with a smartphone that has internet access. Saves a lot of initial WiFi headaches. You can sort out the WiFi later.
+USB tether with a smartphone that has internet access. Helps with the Wi-Fi setup headaches in some cases. Sort out the Wi-Fi setup later.
 
 For Mac machines, use the mac iso.
 
 Install the base system and only the standard system utilities.
 
-## Add add `user` to sudo-ers
+## Add `user` to sudo-ers
 ```
 # nano /etc/apt/sources.list
 ```
