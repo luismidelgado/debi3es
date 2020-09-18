@@ -97,12 +97,12 @@ Other normal `vifm` keybindings.
 
 `~/bin/kbdro.sh` change keyboard to Romanian layout
 
-Run utils from rofi `run` screen.
+Run utils from rofi `run` screen: `Win + d`, `Shift + →`, start typing `pm.` until file is highlighted then press `ENTER`.
 
 ## tips
 
 ### Firewall
-`sudo gufw`
+`$ sudo gufw`
 
 ### HDMI audio
 ```
