@@ -3,7 +3,7 @@ Debian, i3wm. From scratch. Slighlty tuned.
 
 Caveat emptor: driving linux on manual required for the initial mise en place and for daily usage.
 
-## Install debian for netinst firmware
+## Install debian using the  netinst firmware iso
 USB tether with a smartphone that has internet access. Helps with the Wi-Fi setup headaches in some cases. Sort out the Wi-Fi setup later.
 
 For Mac machines, use the mac iso.
