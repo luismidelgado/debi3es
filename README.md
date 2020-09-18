@@ -1,7 +1,7 @@
 # debi3n
 Debian, i3wm. From scratch. Slighlty tuned.
 
-Caveat emptor: manual gear drive requiered for initial mise en place and for daily usage.
+Caveat emptor: manual gear drive required for initial mise en place and for daily usage.
 
 ## Install debian for netinst firmware
 USB tether with a smartphone that has internet access. Saves a lot of initial WiFi headaches. You can sort out the WiFi later.
