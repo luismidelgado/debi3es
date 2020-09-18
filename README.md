@@ -1,23 +1,22 @@
 # debi3n
-debian, i3, from scratch
+Debian, i3wm. From scratch. Slighlty tuned.
 
-caveat emptor: realies heavily on manual user drive for mise en place and usage
+Caveat emptor: manual gear drive requiered for initial mise en place and for daily usage.
 
-## install debian for mac netinst firmware
-usb tether with a smartphone that has internet access
+## Install debian for netinst firmware
+USB tether with a smartphone that has internet access. Saves a lot of initial WiFi headaches. You can sort out the WiFi later.
 
+For Mac machines, use the mac iso.
 
-## add `contrib non-free` and add user to sudo-ers
+Install the base system and only the standard system utilities.
+
+## Add `contrib non-free`, add user to sudo-ers
 ```
 # nano /etc/apt/sources.list
 ```
-add `contrib non-free` to `buster main` suffixes
+Add `contrib non-free` to `buster main`.
 
-`Alt + A` start marking text
-
-`Alt + 6` copy marked text
-
-`Ctrl + U` paste
+Nano editing tips: `Alt + A` start marking text, `Alt + 6` copy marked text, `Ctrl + U` paste.
 
 ```
 # apt update && apt upgrade - y
@@ -25,12 +24,10 @@ add `contrib non-free` to `buster main` suffixes
 # visudo
 ```
 
-mark and copy the `root ALL...` line
-
-paste below and change `root` with the user name you created
+Mark and copy the `root ALL...` line. Paste below and change `root` with the user name you created.
 
 
-## install i3, a minimum of apps and utils and add a few customizations
+## Install i3: a minimum of apps, utils and a few customizations
 ```
 # apt install unzip
 # cd /tmp
@@ -41,30 +38,32 @@ paste below and change `root` with the user name you created
 # ./files.sh <user>
 ```
 
-## install onlyoffice
+Reboot. Enjoy.
+
+## Peculiar installs
+### OnlyOffice
 ```
 $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys CB2DE8E5
 $ sudo nano /etc/apt/sources.list
 ```
 
-add `deb https://download.onlyoffice.com/repo/debian squeeze main`
+Add `deb https://download.onlyoffice.com/repo/debian squeeze main` source.
 
 ```
 $ sudo apt update
 $ sudo apt install onlyoffice-desktopeditors
 ```
 
-## keybindings
-
+## Keybindings
 ### i3
-`Win + Shift + e` exit menu
+`Win + Shift + e` is now an exit menu.
 
 Other normal `i3` keybindings.
 
 ### rofi
-`Win + d` rofi
+`Win + d` is now rofi.
 
-`Shift + →` `Shift + ←` rofi screens
+`Shift + →` `Shift + ←` to cycle through rofi screens.
 
 ### vifm
 `Space` select files
@@ -90,7 +89,7 @@ Other normal `vifm` keybindings.
 
 `CTRL+G` cancel
 
-## utils
+## SoG utils (stroke of genius utils)
 `~/bin/pm.sh` park mouse
 
 `~/bin/rsr.sh` status report
@@ -99,9 +98,9 @@ Other normal `vifm` keybindings.
 
 `~/bin/kbdro.sh` change keyboard to Romanian layout
 
-Run utils from rofi `run` screen: `Win + d`, `Shift + →`, start typing `pm.` until file is highlighted then press `ENTER`.
+Run SoG utils from rofi `run` screen: `Win + d`, `Shift + →`, start typing `pm.` until file is highlighted then press `ENTER`.
 
-## tips
+## Tips
 
 ### Firewall
 `$ sudo gufw`
@@ -116,19 +115,19 @@ $ xrandr --output HDMI1 --auto --set "audio" on
 ```
 
 ### Network interfaces
-`$ ip link` list interfaces
+`$ ip link` to list interfaces.
 
-`$ sudo nano /etc/network/interfaces` edit interfaces
+`$ sudo nano /etc/network/interfaces` to edit interfaces.
 
 ### USB memory sticks
-`$ lsblk` check devs and mount points
+`$ lsblk` to check `dev` and `mount` points.
 
-`$ pmount /dev/sdc` mount
+`$ pmount /dev/sdc` to mount.
 
-`$ lsblk` check if `/media/sdc` mount point has been created
+`$ lsblk` to check if `/media/sdc` mount point has been created.
 
-`$ pumount /dev/sdc` unmount
+`$ pumount /dev/sdc` to unmount.
 
-`$ lsblk` check if unmounted succesfully
+`$ lsblk` to check if unmounted successfully.
 
-`$ udisksctl power-off -b /dev/sdc` safely remove
+`$ udisksctl power-off -b /dev/sdc` to safely remove.
