@@ -56,7 +56,7 @@ $ sudo apt install onlyoffice-desktopeditors
 
 `Win + d` rofi
 
-`Shift + →` `Shift + ←` rofi screens
+`Shift + →`     `Shift + ←`     rofi screens
 
-`Win + S + e` exit menu
+`Win + Shift + e` exit menu
 
