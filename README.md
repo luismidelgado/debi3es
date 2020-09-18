@@ -28,13 +28,13 @@ mark and copy the `root ALL...` line
 paste below and change `root` with the user name you created
 
 
-## install i3 and a minimum of apps and utils
+## install i3, a minimum of apps and utils and add a few customizations
 ```
 # apt install unzip
 # cd /tmp
-# wget http://github.com/itmitica/nicebox/archive/master.zip
+# wget http://github.com/itmitica/debi3n/archive/master.zip
 # unzip master.zip
-# cd nicebox-master
+# cd debi3n-master
 # ./apps.sh
 # ./files.sh <user>
 ```
@@ -54,9 +54,31 @@ $ sudo apt install onlyoffice-desktopeditors
 
 ## keybindings
 
+### rofi
 `Win + d` rofi
 
 `Shift + →` `Shift + ←` rofi screens
 
+### i3
 `Win + Shift + e` exit menu
 
+Other normal `i3` keybindings.
+
+### vifm
+`Space` select files
+
+`w` preview file
+
+`F3` view file
+
+`F4` edit file
+
+`F5` copy selection to other pane
+
+`F6` move selection to other pane
+
+`F7` make directory
+
+`Del` delete selection
+
+Other normal `vifm` keybindings.
