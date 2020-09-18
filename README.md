@@ -1,5 +1,7 @@
 # debi3n
-i3wm on debian, from scratch
+debian, i3, from scratch
+
+caveat emptor: realies heavily on manual user drive for mise en place and usage
 
 ## install debian for mac netinst firmware
 usb tether with a smartphone that has internet access
