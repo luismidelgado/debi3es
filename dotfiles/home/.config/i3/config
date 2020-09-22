@@ -10,6 +10,7 @@ exec_always --no-startup-id numlockx on &
 exec_always --no-startup-id redshift -P -O 4000 &
 exec_always --no-startup-id setxkbmap -layout "us" &
 exec_always --no-startup-id sh ~/bin/pm.sh &
+exec_always --no-startup-id xfce-power-manager &
 
 # font
 font pango:Hurmit Nerd Font Mono Medium 12
