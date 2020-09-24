@@ -5,13 +5,14 @@ client.unfocused #333333 #333333 #888888 #292d2e
 client.urgent #2f343a #900000 #ffffff #900000
 
 # autostart
-exec_always --no-startup-id feh --randomize --no-fehbg --bg-fill ~/Pictures/* &
+exec_always --no-startup-id feh --randomize --no-fehbg --bg-fill ~/Pictures/* & 
 exec_always --no-startup-id numlockx on &
 exec_always --no-startup-id redshift -P -O 4000 &
 exec_always --no-startup-id setxkbmap -layout "us" &
 exec_always --no-startup-id sh ~/bin/pm.sh &
-exec_always --no-startup-id xfce-power-manager &
+exec_always --no-startup-id xfce4-power-manager &
 exec_always --no-startup-id xcompmgr &
+exec_always --no-startup-id screenkey &
 
 # font
 font pango:Hurmit Nerd Font Mono Medium 12
