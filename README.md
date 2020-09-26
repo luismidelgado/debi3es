@@ -56,6 +56,14 @@ $ sudo apt update
 $ sudo apt install onlyoffice-desktopeditors
 ```
 
+### Acrobat Readear DC
+```
+$ sudo apt install snapd
+$ sudo snap install core
+$ sudo snap install acrordrdc
+$ snap run acrordrdc
+```
+
 ## Keybindings
 ### i3wm
 `Win+Shift+E` is now an exit menu.
