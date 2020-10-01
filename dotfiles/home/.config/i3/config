@@ -13,6 +13,7 @@ exec_always --no-startup-id sh ~/bin/pm.sh &
 exec_always --no-startup-id xfce4-power-manager &
 exec_always --no-startup-id xcompmgr &
 exec_always --no-startup-id screenkey &
+# exec_always --no-startup-id key-mon &
 
 # font
 font pango:Hurmit Nerd Font Mono Medium 12
@@ -211,3 +212,5 @@ bindsym $mod+r mode "resize"
 # bar {
 #         status_command i3status
 # }
+
+for_window [title="^screenkey"]        floating enable border normal
