@@ -132,6 +132,8 @@ $ xrandr --output HDMI1 --auto --set "audio" on
 `$ sudo nano /etc/network/interfaces` to edit interfaces.
 
 ### USB memory sticks
+
+#### `pmount`
 `$ lsblk` to check `dev` and `mount` points.
 
 `$ pmount /dev/sdc` to mount.
@@ -143,6 +145,9 @@ $ xrandr --output HDMI1 --auto --set "audio" on
 `$ lsblk` to check if unmounted successfully.
 
 `$ udisksctl power-off -b /dev/sdc` to safely remove.
+
+#### `udiskie`
+Add `exec` entry to i3 config file.
 
 ### Uniform theming
 Start with lxappearance and choose a theme; then choose it in gtk-chtheme. In qt4-config, there is a dropdown menu setting to make qt take the GTK+ settings. Credits: https://askubuntu.com/a/600946.
