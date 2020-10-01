@@ -6,13 +6,13 @@ client.urgent #2f343a #900000 #ffffff #900000
 
 # autostart
 exec_always --no-startup-id feh --randomize --no-fehbg --bg-fill ~/Pictures/* & 
-exec_always --no-startup-id numlockx on &
-exec_always --no-startup-id redshift -P -O 4000 &
-exec_always --no-startup-id setxkbmap -layout "us" &
+exec --no-startup-id numlockx on &
+exec --no-startup-id redshift -P -O 4000 &
+exec --no-startup-id setxkbmap -layout "us" &
 exec_always --no-startup-id sh ~/bin/pm.sh &
-exec_always --no-startup-id xfce4-power-manager &
-exec_always --no-startup-id xcompmgr &
-exec_always --no-startup-id screenkey &
+exec --no-startup-id xfce4-power-manager &
+# exec_always --no-startup-id xcompmgr &
+# exec --no-startup-id screenkey &
 # exec_always --no-startup-id key-mon &
 
 # font
@@ -124,6 +124,8 @@ bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
+workspace_layout tabbed
+
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
@@ -213,4 +215,11 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 
-for_window [title="^screenkey"]        floating enable border normal
+# floating windows
+# for_window [title="^screenkey"]        floating enable border normal
+
+# Volume control                                               (mute|vol-|vol+)
+# https://github.com/fabi1cazenave/dotFiles/blob/master/bin/mvolume
+bind 121 exec $(sh ~/bin/mvolume.sh / && pkill -USR1 -x i3status)
+bind 122 exec $(sh ~/bin/mvolume.sh - && pkill -USR1 -x i3status)
+bind 123 exec $(sh ~/bin/mvolume.sh + && pkill -USR1 -x i3status)
