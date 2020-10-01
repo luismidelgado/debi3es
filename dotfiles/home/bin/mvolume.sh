@@ -27,8 +27,8 @@ if command_exists pactl ; then
   case $1 in
 
     # pulseaudio 8.0 (Ubuntu 16.04)
-    +|raise) pactl set-sink-volume @DEFAULT_SINK@ +1% ;;
-    -|lower) pactl set-sink-volume @DEFAULT_SINK@ -1% ;;
+    +|raise) pactl set-sink-volume @DEFAULT_SINK@ +5% ;;
+    -|lower) pactl set-sink-volume @DEFAULT_SINK@ -5% ;;
     /|mute)  pactl set-sink-mute   @DEFAULT_SINK@ toggle ;;
 
     # pulseaudio 4.0 (Ubuntu 14.04)
