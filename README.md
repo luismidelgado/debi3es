@@ -153,3 +153,7 @@ Add `exec` entry to i3 config file.
 Start with lxappearance and choose a theme; then choose it in gtk-chtheme. In qt4-config, there is a dropdown menu setting to make qt take the GTK+ settings. Credits: https://askubuntu.com/a/600946.
 
 My personal favorite fonts: Cantarell, size 13 and Hurmit Nerd Font Mono, size 12.
+
+### Two monitors as one virtual monitor
+Normal user activity prevented fluid full screen rendering in VLC on a different workspace on the second monitor. Playing around this issue, I decided to "fuse" the two monitors in a single virtual monitor: `~/bin/2as1.sh`. I started VLC, Terminal, then used `Mod+e` to position each on half the virtual monitor, each on a physical monitor, in fact. I then keyed `Mod+h` while on Terminal to create a new container, I opened Chromium and I rearranged Terminal and Cromium by way of `Mod+w`, for a tabbed layout, while the VLC container remained master on the other half of the workspace. I chose a minimal interface for VLC and played it as such, no fullscreen. The difference with such a layout is that a new window on a new workspace can span on both physical monitors. I doubt it is of any use spanning VLC window, but with other stuff it may be desireable to get double the content at a glance.
+
