@@ -218,6 +218,7 @@ bindsym $mod+r mode "resize"
 
 # floating windows
 # for_window [title="^screenkey"]        floating enable border normal
+for_window [title="^florence"]        floating enable border normal
 
 # Volume control                                               (mute|vol-|vol+)
 # https://github.com/fabi1cazenave/dotFiles/blob/master/bin/mvolume
@@ -228,3 +229,6 @@ bindsym $mod+r mode "resize"
 bindsym XF86AudioMute exec $(sh ~/bin/mvolume.sh / && pkill -USR1 -x i3status)
 bindsym XF86AudioLowerVolume exec $(sh ~/bin/mvolume.sh - && pkill -USR1 -x i3status)
 bindsym XF86AudioRaiseVolume exec $(sh ~/bin/mvolume.sh + && pkill -USR1 -x i3status)
+
+# no mouse center when changing the workspace
+mouse_warping none
