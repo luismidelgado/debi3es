@@ -99,6 +99,9 @@ Other normal `vifm` keybindings.
 
 `CTRL+G` cancel
 
+### vlc
+`CTRL+H` minimal interface
+
 ## SoG utils (stroke of genius utils)
 `~/bin/pm.sh` to park the mouse.
 
