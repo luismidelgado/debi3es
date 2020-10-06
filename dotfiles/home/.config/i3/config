@@ -217,8 +217,10 @@ bindsym $mod+r mode "resize"
 # }
 
 # floating windows
-# for_window [title="^screenkey"]        floating enable border normal
-for_window [title="^florence"]        floating enable border normal
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [title="Preferences$"] floating enable
+for_window [title="Playlist$"] floating enable
 
 # Volume control                                               (mute|vol-|vol+)
 # https://github.com/fabi1cazenave/dotFiles/blob/master/bin/mvolume
