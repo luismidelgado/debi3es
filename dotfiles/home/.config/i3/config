@@ -1,8 +1,9 @@
 # debi3n
-client.focused #888888 #dddddd #222222 #2e9ef4
-client.focused_inactive #333333 #555555 #bbbbbb #484e50
-client.unfocused #333333 #333333 #888888 #292d2e
-client.urgent #2f343a #900000 #ffffff #900000
+client.focused #000000 #116CB2 #dddddd #222222 #000000
+client.focused_inactive #000000 #555555 #cccccc #bbbbbb #000000
+client.unfocused #000000 #333333 #777777 #888888 #000000
+client.urgent #000000 #2f343a #900000 #ffffff #900000
+client.background #000000
 
 # autostart
 exec --no-startup-id udiskie -a -n -s &
