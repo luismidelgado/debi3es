@@ -18,7 +18,8 @@ exec --no-startup-id xfce4-power-manager &
 # exec_always --no-startup-id key-mon &
 
 # font
-font pango:Hurmit Nerd Font Mono Medium 12
+# font pango:Hurmit Nerd Font Mono Medium 12
+font pango:JuliaMono Medium 13
 
 # program launcher
 bindsym $mod+d exec "rofi -combi-modi window,drun,run -show combi -modi run"

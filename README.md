@@ -155,7 +155,7 @@ Add `exec` entry to i3 config file.
 ### Uniform theming
 Start with lxappearance and choose a theme; then choose it in gtk-chtheme. In qt4-config, there is a dropdown menu setting to make qt take the GTK+ settings. Credits: https://askubuntu.com/a/600946.
 
-My personal favorite fonts: Cantarell, size 13 and Hurmit Nerd Font Mono, size 12.
+My personal favorite fonts: Cantarell, size 13 and JuliaMono Medium, size 13.
 
 ### Two monitors as one virtual monitor
 With `xrandr` on my Macmini Late 2012 `i3wm` installation, the bash scripts `2h.sh` and `2v.sh` will arrange my two monitors horizontally or vertically, while `1h.sh` and `1v.sh` will arrange my two monitors in a single virtual monitor spanning horizontally or vertically.
