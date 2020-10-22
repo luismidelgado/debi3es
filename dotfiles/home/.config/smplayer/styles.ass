@@ -4,4 +4,4 @@ Collisions: Normal
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, OutlineColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow, MarginL, MarginR, MarginV
-Style: Default,Cantarell,32,&H00ffffff,&H00000000,&H00000000,0,0,2,1,1.2,0.2,20,20,8
+Style: Default,Lato Medium,28,&H00ffffff,&H00000000,&Hd2000000,0,0,2,3,1.1,0,20,20,8
