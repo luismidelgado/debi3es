@@ -19,13 +19,15 @@ exec --no-startup-id xfce4-power-manager &
 
 # font
 # font pango:Hurmit Nerd Font Mono Medium 12
-font pango:Cantarell 12
+font pango:Cantarell 14
+
 
 # program launcher
 bindsym $mod+d exec "rofi -combi-modi window,drun,run -show combi -modi run"
 
 # exit i3
-mode "    l̲̲ogout    ﰇ r̲̲estart     p̲̲ower off   " {
+# mode "    l̲̲ogout    ﰇ r̲̲estart     p̲̲ower off   " {
+mode "     [L]ogout       [R]estart       [P]ower off   " {
   bindsym l exec i3-msg exit
   bindsym r exec systemctl reboot
   bindsym p exec systemctl poweroff
@@ -33,7 +35,8 @@ mode "    l̲̲ogout    ﰇ r̲̲estart     p̲̲ower off   " {
   bindsym Return mode "default"
 }
 
-bindsym $mod+Shift+e mode "    l̲̲ogout    ﰇ r̲̲estart     p̲̲ower off   "
+# bindsym $mod+Shift+e mode "    l̲̲ogout    ﰇ r̲̲estart     p̲̲ower off   "
+bindsym $mod+Shift+e mode "     [L]ogout       [R]estart       [P]ower off   "
 
 # ibar settings
 bar {
