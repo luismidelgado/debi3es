@@ -422,8 +422,8 @@ nnoremap b :bmarks<cr>
 nnoremap <delete> :delete<cr>
 nnoremap <f4> :!xfce4-terminal --tab --command='vim %"f' &<cr>
 nnoremap s :!xfce4-terminal --tab &<cr>
-"nnoremap s :!ttab -d %d &<cr>
-set classify=' :dir:/,:exe:,:reg:,秊:link:,?  :?:,::../::'
+" nnoremap s :!ttab -d %d &<cr>
+" set classify=' :dir:/,:exe:,:reg:,秊:link:,?  :?:,::../::'
 set runexec
 set sort+=iname
 set statusline="  %A %10u:%-7g %15s %20d  "
@@ -465,3 +465,5 @@ map <c-t> :tabnew<cr>
 map <c-w> :tabclose<cr>
 
 map <c-l> :cd ""<left>
+
+colorscheme dwmlight_mit
