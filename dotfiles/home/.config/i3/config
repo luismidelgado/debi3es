@@ -1,5 +1,5 @@
 # debi3n
-client.focused #000000 #116CB2 #dddddd #222222 #000000
+client.focused #000000 #116CB2 #bdbdbd #222222 #000000
 client.focused_inactive #000000 #555555 #cccccc #bbbbbb #000000
 client.unfocused #000000 #333333 #777777 #888888 #000000
 client.urgent #000000 #2f343a #900000 #ffffff #900000
