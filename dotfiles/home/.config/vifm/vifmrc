@@ -63,7 +63,7 @@ set vimhelp
 
 " Selected color scheme
 
-colorscheme Default
+" colorscheme Default
 
 " Format for displaying time in file list. For example:
 " TIME_STAMP_FORMAT=%m/%d-%H:%M
@@ -466,4 +466,4 @@ map <c-w> :tabclose<cr>
 
 map <c-l> :cd ""<left>
 
-colorscheme dwmlight_mit
+colorscheme papermat
