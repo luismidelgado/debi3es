@@ -59,11 +59,11 @@ highlight   Device       cterm=none                ctermfg=057   ctermbg=255
 
 highlight   Fifo         cterm=none                ctermfg=024   ctermbg=255
 highlight   Executable   cterm=none                ctermfg=028   ctermbg=255
-highlight   Selected     cterm=none                ctermfg=007   ctermbg=068
+highlight   Selected     cterm=none                ctermfg=162   ctermbg=253
 
-highlight   CurrLine     cterm=none                ctermfg=-1    ctermbg=153
-highlight   TopLineSel   cterm=none                ctermfg=240   ctermbg=255
-highlight   TopLine      cterm=none                ctermfg=240   ctermbg=255
+highlight   CurrLine     cterm=none                ctermfg=-1    ctermbg=250
+highlight   TopLineSel   cterm=none                ctermfg=254   ctermbg=024
+highlight   TopLine      cterm=none                ctermfg=248   ctermbg=252
 
 highlight   StatusLine   cterm=none                ctermfg=254   ctermbg=024
 highlight   WildMenu     cterm=none                ctermfg=234   ctermbg=255
