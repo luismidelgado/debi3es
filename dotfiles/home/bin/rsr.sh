@@ -1,2 +1,2 @@
 #!/bin/sh
-xfce4-terminal -x ~/bin/sr.sh | less
+mate-terminal -x ~/bin/sr.sh | less
