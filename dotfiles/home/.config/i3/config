@@ -26,7 +26,6 @@ font pango:Cantarell 14
 bindsym $mod+d exec "rofi -combi-modi window,drun,run -show combi -modi run"
 
 # exit i3
-# mode "    l̲̲ogout    ﰇ r̲̲estart     p̲̲ower off   " {
 mode "     [L]ogout       [R]estart       [P]ower off   " {
   bindsym l exec i3-msg exit
   bindsym r exec systemctl reboot
@@ -35,7 +34,6 @@ mode "     [L]ogout       [R]estart       [P]ower off   " {
   bindsym Return mode "default"
 }
 
-# bindsym $mod+Shift+e mode "    l̲̲ogout    ﰇ r̲̲estart     p̲̲ower off   "
 bindsym $mod+Shift+e mode "     [L]ogout       [R]estart       [P]ower off   "
 
 # ibar settings
@@ -142,7 +140,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+bindsym $mod+z focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
