@@ -65,8 +65,10 @@ $ snap run acrordrdc
 ```
 
 ## Keybindings
+
 ### i3wm
 `Win+Shift+E` is now an exit menu.
+
 `Win+Z` keybinding for focusing a child container. In relation to `Win+A`, focus parent keybinding.
 
 Other normal `i3wm` keybindings, e.g. `Win+Shift+Space` to toggle floating for active window, `Win+Space` to toggle focus from floated windows to tiled windows and back.
@@ -182,4 +184,5 @@ I found out that normal user activity prevented fluid full screen rendering in V
 
 I ended up uninstalling VLC and I now use SMPlayer in Kompact mode: `CTRL+C`.
 
-### With `i3wm`, one may experience poor video rendering: tearing, artefacts. A compositor is nedeed in this case: `xcompmgr`, `compton`, `picom`. Still under consideration, at this point.
+### Compositors
+With `i3wm`, one may experience poor video rendering: tearing, artefacts. A compositor is nedeed in this case: `xcompmgr`, `compton`, `picom`. Still under consideration, at this point.
