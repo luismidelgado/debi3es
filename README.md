@@ -40,7 +40,7 @@ Mark and copy the `root ALL...` line. Paste below and change `root` with the use
 
 Reboot. Login. `startx`. Practice the keybindings. Enjoy.
 
-When ncessary, drive linux on manual: learn about new commands.
+When necessary, drive linux on manual: learn about new commands.
 
 ## Peculiar installs
 ### OnlyOffice
@@ -67,8 +67,9 @@ $ snap run acrordrdc
 ## Keybindings
 ### i3wm
 `Win+Shift+E` is now an exit menu.
+`Win+Z` keybinding for focusing a child container. In relation to `Win+A`, focus parent keybinding.
 
-Other normal `i3wm` keybindings.
+Other normal `i3wm` keybindings, e.g. `Win+Shift+Space` to toggle floating for active window, `Win+Space` to toggle focus from floated windows to tiled windows and back.
 
 ### rofi
 `Win+D` is now rofi.
@@ -76,8 +77,6 @@ Other normal `i3wm` keybindings.
 `Shift+ →` `Shift+ ←` to cycle through rofi screens.
 
 ### vifm
-`Space` to select files.
-
 `w` to quickly preview the selected file.
 
 `F3` to preview the selected file
@@ -99,8 +98,26 @@ Other normal `vifm` keybindings.
 
 `CTRL+G` cancel
 
-### vlc
-`CTRL+H` minimal interface
+### SMPlayer
+`CTRL+C` kompakt mode.
+
+`CTRL+F` open file.
+
+`CTRL+U` open URL.
+
+`CTRL+S` stop.
+
+`CTRL+X` exit.
+
+`1`, `2` contrast control.
+
+`3`, `4` brightness control.
+
+`R`, `T` subtitle positions shift.
+
+`Z`, `X` subtitle delay shift.
+
+Other normal `SMPlayer` keybindings.
 
 ## SoG utils (stroke of genius utils)
 `~/bin/pm.sh` to park the mouse.
@@ -160,6 +177,9 @@ My personal favorite fonts: Cantarell, size 13 and JuliaMono Medium, size 13.
 ### Two monitors as one virtual monitor
 With `xrandr` on my Macmini Late 2012 `i3wm` installation, the bash scripts `2h.sh` and `2v.sh` will arrange my two monitors horizontally or vertically, while `1h.sh` and `1v.sh` will arrange my two monitors in a single virtual monitor spanning horizontally or vertically.
 
+#### VLC note
 I found out that normal user activity prevented fluid full screen rendering in VLC on a different workspace on the second monitor. Playing around this issue, I decided to "fuse" the two monitors in a single virtual monitor: `~/bin/1v.sh`. I started VLC, Terminal, then used `Mod+e` to position each on half the virtual monitor, each on a physical monitor, in fact. I then used `Mod+h` while on Terminal to create a new container. I then opened Chromium and I rearranged Terminal and Chromium by way of `Mod+w`, for a tabbed layout, while the VLC container remained master on the other half of the workspace. I chose a minimal interface for VLC and played it as such, no fullscreen. The difference with such a layout is that a new window on a new workspace can span on both physical monitors. I doubt it is of any use spanning VLC window, but with other stuff it may be desireable to get double the content at a glance.
 
 I ended up uninstalling VLC and I now use SMPlayer in Kompact mode: `CTRL+C`.
+
+### With `i3wm`, one may experience poor video rendering: tearing, artefacts. A compositor is nedeed in this case: `xcompmgr`, `compton`, `picom`. Still under consideration, at this point.
