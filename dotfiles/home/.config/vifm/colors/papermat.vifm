@@ -62,8 +62,8 @@ highlight   Executable   cterm=none                ctermfg=028   ctermbg=255
 highlight   Selected     cterm=none                ctermfg=162   ctermbg=253
 
 highlight   CurrLine     cterm=none                ctermfg=-1    ctermbg=250
-highlight   TopLineSel   cterm=none                ctermfg=4     ctermbg=253
-highlight   TopLine      cterm=none                ctermfg=4     ctermbg=253
+highlight   TopLineSel   cterm=none                ctermfg=246   ctermbg=254
+highlight   TopLine      cterm=none                ctermfg=246   ctermbg=254
 
 highlight   StatusLine   cterm=none                ctermfg=254   ctermbg=024
 highlight   WildMenu     cterm=none                ctermfg=234   ctermbg=255
