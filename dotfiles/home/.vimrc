@@ -41,6 +41,10 @@ set wrapscan               " Searches wrap around end-of-file.
 colorscheme PaperColor
 filetype plugin indent on
 hi Visual ctermbg=16
+hi LineNr ctermbg=252
+hi LineNr ctermfg=240
+hi CursorLineNR ctermbg=248
+hi CursorLineNR ctermfg=232
 
 if has('multi_byte') && &encoding ==# 'utf-8'
   let &listchars = 'tab:? ,extends:?,precedes:?,nbsp:±'
