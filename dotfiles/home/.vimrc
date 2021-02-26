@@ -12,6 +12,7 @@ set display     =lastline  " Show as much as possible of the last line.
 set expandtab              " Use spaces instead of tabs.
 set encoding=utf-8
 set fileencoding=utf-8
+set formatoptions-=t
 set fileencodings=utf-8,cp1252,default
 set hidden                 " Switch between buffers without having to save first.
 set hlsearch               " Keep matches highlighted.
@@ -21,6 +22,7 @@ set lazyredraw             " Only redraw when necessary.
 set list                   " Show non-printable characters.
 set nocompatible
 set noshowmode
+set nowrap
 set number
 set report      =0         " Always report changed lines.
 set ruler
@@ -33,9 +35,11 @@ set splitbelow             " Open new windows below the current window.
 set splitright             " Open new windows right of the current window.
 set softtabstop =4         " Tab key indents by 4 spaces.
 set synmaxcol   =200       " Only highlight the first 200 columns.
+set textwidth   =0
 set t_Co=256               " This is may or may not needed.
 set ttyfast                " Faster redrawing.
 set wildmenu
+set wrapmargin  =0
 set wrapscan               " Searches wrap around end-of-file.
 
 colorscheme PaperColor
