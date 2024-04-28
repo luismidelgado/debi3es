@@ -184,6 +184,9 @@ With `xrandr` on my Macmini Late 2012 `i3wm` installation, the bash scripts `2h.
 #### VLC note
 I found out that normal user activity prevented fluid full screen rendering in VLC on a different workspace on the second monitor. Playing around this issue, I decided to "fuse" the two monitors in a single virtual monitor: `~/bin/1v.sh`. I started VLC, Terminal, then used `Mod+e` to position each on half the virtual monitor, each on a physical monitor, in fact. I then used `Mod+h` while on Terminal to create a new container. I then opened Chromium and I rearranged Terminal and Chromium by way of `Mod+w`, for a tabbed layout, while the VLC container remained master on the other half of the workspace. I chose a minimal interface for VLC and played it as such, no fullscreen. The difference with such a layout is that a new window on a new workspace can span on both physical monitors. I doubt it is of any use spanning VLC window, but with other stuff it may be desireable to get double the content at a glance.
 
+## Referencias
+- [Instalar ‘I3’ Desde Repositorio Oficial De Debian](https://hijosdeinit.gitlab.io/howto_i3wm_debian_10_netbook/)
+
 I ended up uninstalling VLC and I now use SMPlayer in Kompact mode: `CTRL+C`.
 
 ### Compositors
